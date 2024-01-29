@@ -1,0 +1,324 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-family: rubik;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+
+}
+
+.container{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-background{
+    background-image: linear-gradient(to top, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 700px;
+    height: 1070px;
+    border-bottom-left-radius: 370px;
+    border-bottom-right-radius: 370px;
+    position: absolute;
+    z-index: -1;
+    left: -120px;
+    top: -50px;
+}
+
+
+.right-background{
+    background-color: hsl(270, 20%, 96%);
+    width: 433px;
+    height: 900px;
+    border-top-left-radius: 450px;
+    position: absolute;
+    z-index: -1;
+    left: 1600px;
+    top: 182px;
+}
+
+/* MOBILE */
+.mobile{
+    width: 370px;
+    height: 750px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    left: 470px;
+    top: 230px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 50px hsl(0, 2%, 80%);
+
+}
+
+.mobile-content{
+    background-color: hsl(270, 20%, 96%);
+    margin: 15px;
+    width: 340px;
+    height: 720px;
+    border-radius: 40px;
+}
+
+/* MOBILE HEADER */
+.mobile__header{
+    width: 340px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.white-background{
+    width: 200px;
+    height: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.header-content{
+    width: 320px;
+    height: 50px;
+    margin: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-photo img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);;
+}
+
+.name-and-status{
+    margin-right: 115px;
+}
+
+.user-name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.user-status{
+    font-size: 12px;
+    color: hsl(0, 0%, 70%);;
+}
+
+.three-dots{
+    width: 4px;
+    margin-right: 8px;
+}
+/* END OF MOBILE HEADER */
+
+
+
+/* CHAT CONTENT */
+.chat__section{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* CHAT ON THE LEFT */
+.walker-chat{
+    width: 150px;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(273, 36%, 89%);
+}
+
+.first, .second, .fifth{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 10px;
+}
+
+
+/* CHAT ON THE RIGHT */
+.user-chat{
+    width: 155px;
+    margin-left: 140px;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.third, .fourth{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.fourth{
+    width:90px;
+    margin-left: 204px;
+    margin-bottom: 10px;
+}
+
+/* PHOTOS ON THE RIGHT CHAT */
+.dog-photos{
+    width: 220px;
+    height: 55px;
+    margin-left: 100px;
+    background-color: transparent;
+}
+
+.dog-photos img{
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+
+/* PRICE */
+.price-30min{
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 240px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    margin-top: 2px;
+}
+
+.price-30min img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.price-1hour{
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 240px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    margin-top: 2px;
+}
+
+.price-1hour img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.price-30min .time{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin-right: 65px
+}
+
+.price-30min .price{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price-1hour .time{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin-right: 90px
+}
+
+.price-1hour .price{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* TYPING MESSAGE */
+.typing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    height: 50px;
+    width: 310px;
+    margin-top: 15px;
+}
+
+.search-input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+ .typing img{
+    width: 35px;
+ }
+  /* END OF CHAT */
+
+
+
+ /* SIMPLE BOOKING */
+
+ .simple-booking{
+    position: absolute;
+    left: 1030px;
+    top: 475px;
+    width: 670px;
+ }
+
+ .booking__title{
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding-bottom: 40px;
+ }
+
+ .booking__details{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: hsl(270, 7%, 64%);
+ }
+
+
+
+ @media (max-width: 375px) {
+    body{
+        width: 375px;
+        background-color: black;
+    }
+
+    .container{
+        width: 375px;
+    }
+
+
+    
+ }
+
+
+
+
+
+
+
+
